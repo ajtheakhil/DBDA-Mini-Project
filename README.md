@@ -1,2 +1,5 @@
-# DBDA-Mini-Project
-The ResNet-SVM model was developed as a requirement for the PG-DBDA course.  The model was trained utilizing publicly accessible datasets.  The dataset comprised images of 20 wild animals native to India.
+The ResNet-SVM model was developed as a requirement for the PG-DBDA course.  The model was trained utilizing publicly accessible datasets.  The dataset comprised images of diverse wild animals native to India.
+
+ Feature Extraction with ResNet: A pre-trained ResNet model (typically ResNet-50 or ResNet-101), renowned for its robust deep learning architecture, is employed as the backbone network.  The initial layers of the ResNet model autonomously extract pertinent visual features (such as textures, shapes, and patterns) from wildlife images (e.g., those captured by camera traps).  The highly deep architecture of ResNet facilitates the mitigation of vanishing gradient issues and enhances efficacy in feature extraction.
+
+ Classification with SVM: Rather than employing the standard Softmax layer at the conclusion of the ResNet for classification, the extracted features are input into an independent Support Vector Machine (SVM) classifier.  Support Vector Machines are powerful machine learning algorithms frequently employed for reliable classification tasks when provided with high-quality features.
