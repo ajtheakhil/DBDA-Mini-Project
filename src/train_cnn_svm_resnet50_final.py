@@ -30,12 +30,12 @@ BATCH_SIZE = 16
 PROJECT_DIR = "D:/CDAC/Mini_project" # provide path to base folder
 DATA_DIR = os.path.join(PROJECT_DIR, "dataset") # provide path to dataset base folder name
 TRAIN_DIR = os.path.join(DATA_DIR, "train") # provide path to training dataset folder name
-VAL_DIR = os.path.join(DATA_DIR, "val") # provide path to test dataset folder name
+VAL_DIR = os.path.join(DATA_DIR, "test") # provide path to test dataset folder name
 
 # File paths to models
-SVM_MODEL_PATH = os.path.join(PROJECT_DIR, "svm_model_resnet_final.joblib")
-CNN_MODEL_PATH = os.path.join(PROJECT_DIR, "cnn_feature_extractor_resnet_final.h5")
-HEATMAP_PATH = os.path.join(PROJECT_DIR, "confusion_matrix_heatmap_final.png")
+SVM_MODEL_PATH = os.path.join(PROJECT_DIR, "models/svm_model_resnet_final.joblib")
+CNN_MODEL_PATH = os.path.join(PROJECT_DIR, "models/cnn_feature_extractor_resnet_final.h5")
+HEATMAP_PATH = os.path.join(PROJECT_DIR, "img/confusion_matrix_heatmap_final.png")
 
 # ----- DATA GENERATORS -----
 train_datagen = ImageDataGenerator(
