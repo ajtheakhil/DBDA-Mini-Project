@@ -1,0 +1,2 @@
+This folder is to store test datasets.
+The image files should be jpg format.
