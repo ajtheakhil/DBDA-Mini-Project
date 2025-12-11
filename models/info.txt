@@ -1,0 +1,3 @@
+The folder to save models created after running CNN section and SVM section.
+  cnn_feature_extractor_resnet_final.h5 : CNN Model
+  svm_model_resnet_final.joblib : SVM Model
