@@ -1,3 +1,4 @@
 The folder to save models created after running CNN section and SVM section.
-  cnn_feature_extractor_resnet_final.h5 : CNN Model
+  CNN Model in Kaggle: (https://www.kaggle.com/models/ajtheakhil/cnn-svm-resnet50-model)
   svm_model_resnet_final.joblib : SVM Model
+
