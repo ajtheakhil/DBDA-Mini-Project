@@ -1,0 +1,3 @@
+Image dataset is stored in Kaggle space. 
+Contains training and test sets 
+Link: https://www.kaggle.com/datasets/ajtheakhil/indian-wildlife-pg-dbda-mini-project-2025
